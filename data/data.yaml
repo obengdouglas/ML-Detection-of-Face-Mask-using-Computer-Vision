@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/Colab_Data/face-mask-detection/images/train  # train images (relative to 'path') 128 images
+val: /content/drive/MyDrive/Colab_Data/face-mask-detection/images/val  # val images (relative to 'path') 128 images
+
+nc: 3
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']
